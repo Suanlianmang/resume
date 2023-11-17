@@ -1,0 +1,68 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{myblue}{RGB}{17, 85, 204}
+
+\titleformat{\section}
+{\color{myblue}\normalfont\Large\bfseries}
+{\color{myblue}\thesection}{1em}{}
+
+  
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  breaklinks=true
+}
+
+\begin{document}
+
+\title{\textbf{Suanlianmang Lethil's Resume}}
+\author{}
+\date{}
+\maketitle
+
+\section*{Contact Information}
+\textbf{Location:} Bangalore, Karnataka, India, PO - 560029 \\
+\textbf{Phone:} +91 8131061175 \\
+\textbf{Email:} \href{mailto:suanlian.lethil@gmail.com}{suanlian.lethil@gmail.com}, or \href{mailto:lethil@artisverything.com}{lethil@artisverything.com} \\
+\textbf{Website:} {\url{https://www.artisverything.com}}
+
+\section*{Summary}
+Results-oriented and adaptable software developer with a proven track record in tackling challenges of various scales and technologies. Passionate about problem-solving, I thrive in roles where I'm handed a problem, regardless of scale or technology, and figure out the best solutions. Currently leading the software team at Waltr. With a curiosity that extends to almost everything, I'm an avid reader, and in my spare time, a wannabe writer.
+
+\section*{Skills}
+\begin{itemize}[left=0em]
+    \item Team Leadership
+    \item System design and architecture
+    \item REST API Development using Django
+    \item Cross-platform Mobile Development in Flutter
+    \item Database management and design in PostgreSQL and DynamoDB
+    \item Cloud Computing: AWS Lambda, Virtual Machine / EC2, IoT Core, RDS, SQS, S3, and more.
+    \item \textit{I prioritize the understanding of fundamental concepts, as problem-solving is at the core of being a software engineer. While I've gained practical experience with specific technologies, including those mentioned above, I prefer to avoid boxing myself in as a specific type of software engineer.}
+\end{itemize}
+
+\section*{Experience}
+\subsection*{Waltr - Software Team Lead (July 2022 - Present)}
+\begin{itemize}[left=0em]
+    \item Design and implementation of a serverless application that efficiently handles over 500 million data records and 13,000 concurrent executions per second.
+    \item Orchestrated the development of a cross-platform software, successfully launching it on iOS, Android, and Web platforms.
+    \item Actively involved in firmware development, collaborating closely with the firmware and hardware teams to launch innovative products.
+    \item Personally curated and established a high-performing team from the ground up, handpicking individuals who share a commitment to curiosity, exploration, and determination to find solutions. This inclusive approach encourages each team member to take ownership, be proactive, and contribute independently, aligning with the philosophy that "Who Needs Managers When You've Got Awesomeness?"
+\end{itemize}
+
+\subsection*{1stZoom, Remote - Python / Django Developer (March 2022 - July 2022)}
+\begin{itemize}[left=0em]
+    \item Took part in driving solutions and product conceptualization.
+    \item Designed database and data models for various integrated applications.
+    \item Developed and maintained REST APIs for two applications with token authentications.
+    \item Helped out coworkers in their projects.
+\end{itemize}
+
+\section*{Education}
+\textbf{Don Bosco College, Maram - BCA (May 2018 - May 2021)}
+
+\end{document}
